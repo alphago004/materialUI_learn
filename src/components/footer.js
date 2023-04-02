@@ -1,8 +1,6 @@
 import React from "react";
 import useStyles from "../styles";
-import {
-  Typography,
-} from "@material-ui/core";
+import {Typography,} from "@material-ui/core";
 
 
 const Footer = () => {
@@ -18,7 +16,7 @@ return (
 >
   Footer
 </Typography>
-<Typography variant="subtitle1" align="center" color="textSecondary">
+<Typography  style={{marginBottom:19}} variant="subtitle1" align="center" color="textSecondary">
   This is a footer. Need to add the pages links, and many more to do.
 </Typography>
 </footer>
