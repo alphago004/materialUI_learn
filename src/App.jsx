@@ -4,7 +4,6 @@ import {
   Typography,
   AppBar,
   Toolbar,
-  Paper,
 } from "@material-ui/core";
 import PhotoCamera from "@material-ui/icons/PhotoCamera";
 import Button from "@mui/material/Button";
@@ -14,6 +13,7 @@ import Footer from "./components/footer";
 import SmallPics from "./components/smallPhotos";
 import Toggler from "./components/toggler";
 import DataTable from "./components/table";
+import MouseOverPopover from "./components/mouseOverPopover";
 
 const App = () => {
   const classes = useStyles();
@@ -26,6 +26,7 @@ const App = () => {
             Photo Album
           </Typography>
         </Toolbar>
+        <MouseOverPopover />
       </AppBar>
       <main>
 
